@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace JwtRoleAuthentication.Data;
+namespace JWTAuth.Data;
 
 
 public class ApplicationDbContext : IdentityUserContext<ApplicationUser>
